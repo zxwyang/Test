@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pages>
+
+	<!-- page元素代表一个页面 -->
+
+	<page keyword="登录页面">
+
+		<uiElement keyword="手机号" by="id" value="mobilephone"></uiElement>
+
+		<uiElement keyword="密码" by="id" value="password"></uiElement>
+
+		<uiElement keyword="登录按钮" by="id" value="login"></uiElement>
+
+		<uiElement keyword="错误信息展示区" by="className" value="tips"></uiElement>
+
+	</page>
+
+	
+
+	<page keyword="注册页面">
+
+		<uiElement keyword="手机号" by="id" value="mobilephone"></uiElement>
+
+		<uiElement keyword="密码" by="id" value="password"></uiElement>
+
+		<uiElement keyword="重复密码" by="id" value="pwdconfirm"></uiElement>
+
+		<uiElement keyword="验证码" by="id" value="verifycode"></uiElement>
+
+		<uiElement keyword="注册按钮" by="id" value="signup-button"></uiElement>
+
+		<uiElement keyword="错误信息展示区" by="className" value="tips"></uiElement>
+
+	</page>
+
+	
+
+	<page keyword="首页">
+
+		<uiElement keyword="老师信息管理" by="id" value="menu-teacher"></uiElement>
+
+		<uiElement keyword="老师信息" by="partialLinkText" value="老师信息"></uiElement>
+
+		<uiElement keyword="老师列表iframe" by="xpath" value="//iframe[@src='teacher-list.html']"></uiElement>
+
+	</page>
+
+	
+
+	
+
+	<page keyword="老师列表页">
+
+		<uiElement keyword="添加老师按钮" by="partialLinkText" value="添加老师"></uiElement>
+
+	</page>
+
+	
+
+	<page keyword="老师编辑页">
+
+		<uiElement keyword="昵称" by="id" value="nickname"></uiElement>
+
+		<uiElement keyword="手机号" by="id" value="mobilephone"></uiElement>
+
+		<uiElement keyword="qq" by="id" value="qq"></uiElement>
+
+		<uiElement keyword="性别" by="id" value="sex"></uiElement>
+
+		<uiElement keyword="地区" by="id" value="livingPlace"></uiElement>
+
+		<uiElement keyword="类别" by="id" value="type"></uiElement>
+
+		<uiElement keyword="保存按钮" by="id" value="save"></uiElement>
+
+		<uiElement keyword="老师编辑页iframe" by="xpath" value="//iframe[@src='./teacher-edit.html']"></uiElement>
+
+	</page>
+</pages>

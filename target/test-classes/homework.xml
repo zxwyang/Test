@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+    <page keyword="注册页">
+        <locator keyword="手机号输入框" by="id" value="mobilephone"></locator>
+        <locator keyword="密码输入框" by="id" value="password"></locator>
+        <locator keyword="重复输入密码" by="id" value="pwdconfirm"></locator>
+        <locator keyword="注册按钮" by="id" value="signup-button"></locator>
+        <locator keyword="错误提示元素" by="id" value="//p[@class='tips']"></locator>
+    </page>
+    <page keyword="登录页">
+        <locator keyword="手机号输入框" by="id" value="mobilephone"></locator>
+        <locator keyword="密码输入框" by="id" value="password"></locator>
+        <locator keyword="重复输入密码" by="id" value="pwdconfirm"></locator>
+        <locator keyword="注册按钮" by="id" value="signup-button"></locator>
+        <locator keyword="错误提示元素" by="id" value="//p[@class='tips']"></locator>
+    </page>
+</pages>

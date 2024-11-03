@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: java11_maven
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: zxw
+Implementation-Vendor-Id: com.lemon
+Build-Jdk: 1.8.0_92
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/java11_maven
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Suite:测试套件 -->
+<suite name="Suite">
+	<!-- Test:一个测试集（一个测试模块） -->
+	<test name="Test">
+		<!-- 此测试集下的所有测试类 -->
+		<classes>
+			<!-- 测试类的定义 -->
+			<class name="com.lemon.day02.TestngParameterDome">
+			    <methods></methods>
+			</class>
+			<parameter name="brwserType" value="firefox"></parameter>
+		</classes>
+	</test>
+</suite> 
